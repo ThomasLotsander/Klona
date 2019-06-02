@@ -5,4 +5,12 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataRepository\DataRepository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Business\Helpers\" />
+  </ItemGroup>
+
 </Project>
