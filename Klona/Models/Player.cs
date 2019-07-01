@@ -16,6 +16,7 @@ namespace Klona.Models
             Name = name;
             Hand = new PlayingHand();
             Board = new PlayerBoard();
+            int y = 12;
         }
     }
 }
