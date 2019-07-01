@@ -11,17 +11,17 @@ namespace Klona
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
-            var hand = new PlayingHand();
-
-            var cards = new List<Card>();
-
-
             var data = new CardAccess();
-
             var deck = data.GetDeckOfCards();
 
+            var p1 = new Player("Thomas");
+            var p2 = new Player("Micke");
             deck.Shuffle();
+            Game game = new Game(p1, p2, deck);
+            game.Play();
+
+
+            
 
         }
     }

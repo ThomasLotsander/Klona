@@ -8,5 +8,6 @@ namespace Klona.Models
     public class PlayerBoard
     {
         public List<Card> Cards { get; set; }
+        
     }
 }

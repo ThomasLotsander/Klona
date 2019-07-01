@@ -17,8 +17,6 @@ namespace DataRepository
         {
             var deck = new List<Card>();
 
-            
-
             for (int i = 1; i < 5; i++)
             {                
                string suit = CardHelper.GetCardSuit(i); 
